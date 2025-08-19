@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://portfolio.qucu.ru/sitemap.xml
+
+# Запрет индексации временных файлов и директорий
+Disallow: /tmp/
+
+
+# Запрет индексации служебных файлов
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.php$
+
+# Разрешить индексирование основных директорий
+
+Allow: /about/
+Allow: /
+
+# Настройки кэширования
+Crawl-delay: 10
